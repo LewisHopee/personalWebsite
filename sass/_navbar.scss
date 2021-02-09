@@ -1,0 +1,57 @@
+.navbar {
+  grid-column: full-start/ full-end;
+  background-color: $color-primary-dark;
+  //   background-image: linear-gradient(
+  //     to left,
+  //     rgba($color-dark, 1),
+  //     rgba($color-primary-dark, 1)
+  //   );
+  color: $color-light;
+  z-index: 100;
+  border-bottom: 0.2rem solid $color-secondary;
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(min-content, 13vw));
+
+    align-items: center;
+    justify-items: center;
+    padding: 0.5rem;
+    font-weight: 700;
+
+    & .logo {
+      display: flex;
+      justify-self: start;
+      padding-left: 1.5rem;
+      & > img {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+      }
+      & > p {
+        // padding: 1rem;
+        margin-left: 2rem;
+        align-self: center;
+        font-size: 1.5rem;
+      }
+    }
+
+    &--item {
+      font-size: 2.3rem;
+      list-style: none;
+      border-radius: 1rem;
+      padding: 0.5rem;
+      transition: all 0.2s ease-out;
+      z-index: 100;
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-primary-dark;
+        color: $color-light;
+        transform: scale(1.1);
+        box-shadow: 0 0.2rem $color-secondary;
+      }
+    }
+  }
+}
