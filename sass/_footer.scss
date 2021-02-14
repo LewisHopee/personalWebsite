@@ -1,6 +1,7 @@
 .footer {
   grid-column: full-start/full-end;
   grid-template-columns: min-content;
+  overflow: hidden;
 
   font-size: 2rem;
   text-align: center;
