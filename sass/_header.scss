@@ -92,3 +92,14 @@
     }
   }
 }
+
+@media only screen and (max-height: 460px) and (max-width: $bp-smallest) {
+  .header {
+    &__heading {
+      font-size: 4rem;
+    }
+    &__quote {
+      top: 1vh;
+    }
+  }
+}

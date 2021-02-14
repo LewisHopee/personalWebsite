@@ -51,6 +51,6 @@ html {
 
 @media only screen and (max-height: 550px) {
   .container {
-    grid-template-rows: min-content 65vh 1fr 140vh 70vh 50vh min-content;
+    grid-template-rows: min-content 65vh min-content 140vh 70vh 50vh min-content;
   }
 }

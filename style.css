@@ -36,7 +36,7 @@ html {
 
 @media only screen and (max-height: 550px) {
   .container {
-    grid-template-rows: min-content 65vh 1fr 140vh 70vh 50vh min-content; } }
+    grid-template-rows: min-content 65vh min-content 140vh 70vh 50vh min-content; } }
 
 .navbar {
   grid-column: full-start/ full-end;
@@ -83,7 +83,10 @@ html {
 
 @media only screen and (max-width: 39.375em) {
   .navbar__items {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .navbar__items--item {
+      font-size: 1.7rem;
+      letter-spacing: 0.4rem; } }
 
 .header {
   grid-column: full-start/full-end;
@@ -138,13 +141,19 @@ html {
 
 @media only screen and (max-width: 39.375em) {
   .header__heading {
-    font-size: 6rem; }
+    font-size: 5rem; }
   .header__quote {
     top: 2vh; } }
 
 @media only screen and (max-height: 740px) {
   .header__heading {
-    font-size: 6rem; }
+    font-size: 5rem; }
+  .header__quote {
+    top: 1vh; } }
+
+@media only screen and (max-height: 460px) and (max-width: 39.375em) {
+  .header__heading {
+    font-size: 4rem; }
   .header__quote {
     top: 1vh; } }
 
@@ -373,12 +382,12 @@ html {
         width: 40%;
         height: 40%; } }
 
-@media only screen and (max-height: 750px) {
+@media only screen and (max-height: 750px) and (max-width: 39.375em) {
   .about__img {
-    left: 5rem; }
+    left: 17rem; }
     .about__img img {
-      width: 65%;
-      height: 65%; }
+      width: 45%;
+      height: 45%; }
   .about__content h2 {
     font-size: 3rem;
     top: 1rem; }
@@ -386,18 +395,26 @@ html {
     top: 1rem;
     font-size: 1.5rem; } }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 700px) and (max-width: 39.375em) {
   .about__img {
-    left: 5rem; }
+    left: 17rem; }
     .about__img img {
-      width: 55%;
-      height: 55%; }
+      width: 40%;
+      height: 40%; }
   .about__content h2 {
     font-size: 3rem;
     top: 1rem; }
   .about__content p {
     top: 1rem;
     font-size: 1.5rem; } }
+
+@media only screen and (max-height: 680px) and (max-width: 39.375em) {
+  .about {
+    overflow: hidden;
+    grid-template-columns: repeat(1, 100vw); }
+    .about__img img {
+      width: 0%;
+      height: 0%; } }
 
 .contact {
   grid-column: full-start/full-end;
@@ -440,6 +457,14 @@ html {
     font-size: 2.75rem; }
   .contact__container--details li {
     font-size: 2.5rem; } }
+
+@media only screen and (max-width: 39.375em) {
+  .contact {
+    overflow: hidden; }
+    .contact__container li > a {
+      font-size: 2.5rem; }
+    .contact__container--details li {
+      font-size: 2.2rem; } }
 
 .footer {
   grid-column: full-start/full-end;
