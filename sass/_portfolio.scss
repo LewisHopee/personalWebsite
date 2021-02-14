@@ -107,6 +107,14 @@
 
 @media only screen and (max-width: $bp-medium) {
   .portfolio {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 60vh);
+  }
+}
+
+@media only screen and (max-height: 690px) {
+  .portfolio {
+    grid-template-columns: repeat(3, 80vh);
+
+    order-radius: 1rem;
   }
 }
