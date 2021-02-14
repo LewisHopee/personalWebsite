@@ -1,0 +1,51 @@
+"use strict";
+
+const skillsContainer = document.querySelector(".skills__container");
+const footer = document.querySelector(".footer");
+const date = new Date().getFullYear();
+
+class RenderSkills {
+  constructor(arrNames) {
+    this.arrNames = arrNames;
+  }
+
+  render(arrNames) {
+    arrNames.forEach((name, i) => {
+      const html = `
+        <li class="skills__container--item">
+          <p class="name ">${name}</p>
+          <p class="skillLevel">Knowledge</p>
+          <div class="box">
+           
+            <div class="loading k${i + 1}"></div>
+          </div>
+        
+          <p class="skillLevel">Confidence</p>
+          <div class="box">
+            <div class="loading c${i + 1}"></div>
+          </div>
+        </li>`;
+
+      skillsContainer.insertAdjacentHTML("beforeend", html);
+    });
+  }
+}
+
+const names = [
+  "HTML",
+  "CSS / SASS",
+  "Javascript / ES6 / OOP",
+  "NodeJS / MongoDB",
+  "Async / Await / API",
+  "React / Redux",
+];
+//Render skill section
+const skillSection = new RenderSkills(names);
+
+skillSection.render(names);
+
+//Render footer with up to date date.
+
+const footerHTML = `&copy; Leszek Myrkwa ${date} , as this is my personal website I allow to get inspiration by it but not for personal use or for comercial use`;
+
+footer.insertAdjacentHTML("beforeend", footerHTML);

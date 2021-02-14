@@ -2,26 +2,30 @@
   "name": "my-personal-website",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "default": "index.html",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss style.css -w",
-    "devserver": "live-server --browser=chrome",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/main.scss style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' style.comp.css -o style.prefix.css",
-    "compress:css": "node-sass style.prefix.css style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.592",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.592",
+    "@parcel/packager-css": "^2.0.0-nightly.592",
+    "@parcel/packager-html": "^2.0.0-nightly.592",
+    "@parcel/transformer-css": "^2.0.0-nightly.592",
+    "@parcel/transformer-html": "^2.0.0-nightly.592",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.592",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.592",
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.0-nightly.590",
     "postcss-cli": "^8.3.1"
   },
   "dependencies": {
     "postcss": "^8.2.4"
   },
-  "author": "Lewis Hope",
+  "author": "Leszek Myrkwa",
   "license": "ISC"
 }

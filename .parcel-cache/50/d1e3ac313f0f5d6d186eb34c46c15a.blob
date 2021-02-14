@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+
+    
+
+    <script defer="" src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+    <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
+    <title>Leszek Myrkwa personal website</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar__items">
+          <div class="logo">
+            <img src="/favicon-32x32.HASH_REF_968649c24bee2be1afd98a095a8ad47f.png" alt="Website logo">
+            <p>Leszek Myrkwa</p>
+          </div>
+
+          <li class="navbar__items--item"><a href="#skills">Skills</a></li>
+          <li class="navbar__items--item"><a href="#portfolio">Portfolio</a></li>
+          <li class="navbar__items--item"><a href="#about">About</a></li>
+          <li class="navbar__items--item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header">
+        <div class="header__quote">“In everything, love simplicity.”</div>
+        <h1 class="header__heading">
+          Hi, my name is Leszek and I'm
+          <span class="span-small">Web Developer.</span>
+        </h1>
+        <p class="header__p">
+          I'm Self Taught Front End Developer.
+        </p>
+        <div class="header__video">
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="/Surfers%20in%20the%20Sea.HASH_REF_a198a26b674761e0167628a278c69286.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <div class="skills" id="skills">
+        <ul class="skills__container">
+          <!-- <li class="skills__container--item">
+            <p class="name ">HTML</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k1"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c1"></div>
+            </div>
+          </li>
+          
+          <li class="skills__container--item">
+            <p class="name ">CSS / SASS</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k2"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c2"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">javascript / ES6 / OOP</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k3"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c3"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">NodeJS / MongoDB</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k4"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c4"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">async / await + API</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k5"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c5"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name "> react / redux &rarr; <span class="inprogress">in progress...</span></p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k6"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c6"></div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <figure class="portfolio__card ">
+          <img src="/Bankist.HASH_REF_da4b2bd1c632bf14b64b8b3b9f02d98b.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Mapty.HASH_REF_127b3cc545361dbae1ae7175eb04c2f7.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Keeper.HASH_REF_0ea4907026318de6edc24221a08f20f6.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              React ToDoList done on BootCamp from Angela Yu on Udemy 📒
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/JSgame.HASH_REF_a6d0f5210214e72b78d7538acfefa34a.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Nexter.HASH_REF_32c2987ab0c7a646efe7eb579018ff0e.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+             CSS Grid website from Jonas Schmedtmann course. 💵
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Natours.HASH_REF_530b50e8922ddd9609f8086730f31525.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              CSS focused website from Jonas Schmedtmann course. 🗻
+            </h1>
+            <a class="portfolio__card--btn" href="#">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+    </div>
+
+    <div class="about" id="about">
+      <div class="about__img">
+        <img src="/leszek.HASH_REF_b9a42f11d12e3073c8d2d245dbe88315.jpeg" alt="Leszek Myrkwa profile photo">
+      </div>
+      <div class="about__content">
+        <h2>Hi, as You know my name is Leszek and I'm <span class="span-small">Front End Developer.</span>  💻</h2>
+        <p>I'm highly motivated to achive my goal of becoming better and better each day, that's why every day I learn something new and try to progress. For now I focus on Front End but when I start feel like I'm really good with it, I want to start also with <span class="span-small">Back End to become Full Stack Dev</span>  one day.</p>
+        <p>I have started my journey <span class="span-small">7 months ago</span>  and I spend all of my free time on studying programming, other things that I'm intrested with are all tech like phones , laptops etc and also E-sport if I can find some time for it 😂 </p>
+      </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Want me in Your team? Just <span class="span-small">contact me</span>  and invite for inteview so we can get to know better.</h2>
+<div class="contact__container"> 
+  <ul class="contact__container--socials">
+  <li><a href="https://www.linkedin.com/in/leszek-myrkwa-8957401a9/">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+  <li><a href="https://twitter.com/LeszekMyrkwa">Twitter <i class="fab fa-twitter-square"></i></a> </li>
+  <li><a href="https://github.com/LewisHopee?tab=repositories">GitHub <i class="fab fa-github-square"></i></a></li>
+</ul>
+
+<ul class="contact__container--details">
+  <li>Email: <span class="span-small">myrkwa97@gmail.com</span></li>
+  <li>Phone: <span class="span-small">07518488544</span></li>
+</ul>
+</div>
+     
+    </div>
+
+    <div class="footer">
+      &copy; Leszek Myrkwa 2021 , as this is my personal website I allow to get inspiration by it but not for personal use or for comercial use
+    </div>
+  </div></body>
+</html>

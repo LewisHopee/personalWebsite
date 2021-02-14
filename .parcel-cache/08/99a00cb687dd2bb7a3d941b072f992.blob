@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="d152196a430811d5655d4c1d69bc7e23">
+    <link href="c13251fd1e2b2b0566cd2a846941c848" rel="stylesheet">
+    <link rel="stylesheet" href="5be26d168e23e1e90d635f90bc289772" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="ac9bb67457669f2a68c1e9d38c873054">
+    
+
+    <script defer="" type="module" src="f286a1d011c27e9082b7adf7221ba5f6"></script>
+    <link rel="stylesheet" href="638d49292334e38079792166489347a6">
+    <title>Leszek Myrkwa personal website</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar__items">
+          <div class="logo">
+            <img src="d5953d7914140ef3741da7d4d7ef0a3b" alt="Website logo">
+            <p>Leszek Myrkwa</p> 
+          </div>
+
+          <li class="navbar__items--item"><a href="#skills">Skills</a></li>
+          <li class="navbar__items--item"><a href="#portfolio">Portfolio</a></li>
+          <li class="navbar__items--item"><a href="#about">About</a></li>
+          <li class="navbar__items--item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header">
+        <div class="header__quote">“In everything, love simplicity.”</div>
+        <h1 class="header__heading">
+          Hi, my name is Leszek and I'm
+          <span class="span-small">Web Developer.</span>
+        </h1>
+        <p class="header__p">
+          I'm Self Taught Front End Developer.
+        </p>
+        <div class="header__video">
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="80110702a2c5a7a783c2e7baa3526cab" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <div class="skills" id="skills">
+        <ul class="skills__container">
+          <!-- <li class="skills__container--item">
+            <p class="name ">HTML</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k1"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c1"></div>
+            </div>
+          </li>
+          
+          <li class="skills__container--item">
+            <p class="name ">CSS / SASS</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k2"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c2"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">javascript / ES6 / OOP</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k3"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c3"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">NodeJS / MongoDB</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k4"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c4"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">async / await + API</p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k5"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c5"></div>
+            </div>
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name "> react / redux &rarr; <span class="inprogress">in progress...</span></p>
+            <p class="skillLevel">Knowledge</p>
+            <div class="box">
+             
+              <div class="loading k6"></div>
+            </div>
+
+            <p class="skillLevel">Confidence</p>
+            <div class="box">
+              <div class="loading c6"></div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <figure class="portfolio__card ">
+          <img src="11de1e723656e2ae2e832967ffc320fd" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
+            </h1>
+            <a class="portfolio__card--btn" href="4753ccae36b37e8ccd6fb21317a90af3">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="ae91c734d8994d50a6881d1ac0e0098c" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
+            </h1>
+            <a class="portfolio__card--btn" href="e2e651b5ecb4fde11d503c19b6c127de">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="ed4f029ec975d6075331fbf122726cbd" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              React ToDoList done on BootCamp from Angela Yu on Udemy 📒
+            </h1>
+            <a class="portfolio__card--btn" href="0ebc240da59b47d8d95e9222c20f1030">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="27ba70d92e7ce6fd38053b23cce06f69" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
+            </h1>
+            <a class="portfolio__card--btn" href="31e7e08a9a9a614480592402bc0ee54a">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="dae976e8a7c1782473104c9c107939a2" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+             CSS Grid website from Jonas Schmedtmann course. 💵
+            </h1>
+            <a class="portfolio__card--btn" href="c29b84c053c68af241140f76044d81d3">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="65365262308a6c9d92d9f02502835e80" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              CSS focused website from Jonas Schmedtmann course. 🗻
+            </h1>
+            <a class="portfolio__card--btn" href="88f734182f87d1e5d6de421ce8a9d234">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+    </div>
+
+    <div class="about" id="about">
+      <div class="about__img">
+        <img src="42311e43f62a63452a00b0fd1c01d8f2" alt="Leszek Myrkwa profile photo">
+      </div>
+      <div class="about__content">
+        
+      </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Want me in Your team? Just <span class="span-small">contact me</span>  and invite for inteview so we can get to know better.</h2>
+<div class="contact__container"> 
+  <ul class="contact__container--socials">
+  <li><a href="f8565a75e586c01936f3b61ba03dfb89">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+  <li><a href="ae6d0725304f5d668a1f1916e84d3790">Twitter <i class="fab fa-twitter-square"></i></a> </li>
+  <li><a href="c600d10706ef73c120bafd2190c754a7">GitHub <i class="fab fa-github-square"></i></a></li>
+</ul>
+
+<ul class="contact__container--details">
+  <li>Email: <span class="span-small">myrkwa97@gmail.com</span></li>
+  <li>Phone: <span class="span-small">07518488544</span></li>
+</ul>
+</div>
+     
+    </div>
+
+    <div class="footer">
+      
+    </div>
+  </div></body>
+</html>

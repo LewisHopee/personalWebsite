@@ -1,0 +1,112 @@
+.portfolio {
+  grid-column: full-start/full-end;
+  justify-content: center;
+  align-items: center;
+  // padding: 5rem;
+  gap: 1rem;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+
+  background-color: $color-light;
+  @include borderBottom;
+
+  &__card {
+    position: relative;
+    overflow: hidden;
+    @include boxShadow;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 1rem;
+
+    &:hover img {
+      transform: scale(1.1);
+      transition: all 1s;
+    }
+
+    &:hover figcaption {
+      position: relative;
+      transform: scale(1);
+
+      z-index: 1000;
+      opacity: 100;
+    }
+
+    &:hover &--overlay {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 85%;
+      border-radius: 1rem;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+
+    & figcaption {
+      transition: all 0.6s;
+      transform-origin: 50% -60% 0;
+      transform: scale(0);
+      z-index: 1000;
+    }
+
+    &--title {
+      position: absolute;
+      text-align: center;
+      padding: 1.5rem;
+      z-index: 1000;
+      top: -25rem;
+      color: #fff;
+    }
+
+    &--btn {
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+      top: -15rem;
+      left: 36.5%;
+      padding: 1rem;
+      z-index: 1000;
+
+      text-decoration: none;
+      color: $color-secondary;
+      font-size: 2rem;
+      font-weight: 700;
+
+      border-radius: 1rem;
+      background-color: $color-primary;
+      transition: all 0.3s;
+      &:hover {
+        background-color: $color-secondary;
+        color: $color-primary;
+        transform: scale(1.1) translateY(-0.1rem);
+      }
+    }
+
+    &--overlay {
+      position: absolute;
+      background-color: $color-secondary;
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .portfolio {
+    &__card {
+      &--btn {
+        top: -10rem;
+        left: 34%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .portfolio {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

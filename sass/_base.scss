@@ -11,14 +11,46 @@ html {
   font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
   color: $color-primary-dark;
   font-family: "Montserrat", sans-serif;
+
+  background-color: $color-primary;
+  scroll-behavior: smooth;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 1fr 80vh 40vw repeat(3, min-content);
+  grid-template-rows: min-content 65vh 1fr 110vh 70vh 40vh min-content;
   grid-template-columns:
-    [ full-start] minmax(6rem, 1fr)
-    [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
-    [center-end] minmax(6rem, 1fr)
+    [ full-start] minmax(3rem, 3rem)
+    [center-start] repeat(8, [col-start] minmax(min-content, 1fr) [col-end])
+    [center-end] minmax(3rem, 3rem)
     [full-end];
+}
+
+.span-small {
+  color: $color-secondary;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: $bp-largest) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .container {
+    grid-template-rows: min-content 65vh 1fr 110vh 70vh 35vh min-content;
+  }
+}
+
+@media only screen and (max-width: $bp-small) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .container {
+    grid-template-rows: min-content 65vh 1fr 140vh 70vh 50vh min-content;
+  }
 }
