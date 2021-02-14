@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Montserrat font -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="381af7e926dee1ccea208748d9a01fe7">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="13f9429196489feaf99ee77cda29d0d3" rel="stylesheet">
+    <link rel="stylesheet" href="694c493f0b8a2b914b25548ff15a9ddb" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
-    <link rel="icon" 
-    type="image/png" 
-    href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="63767fcf1acab208c02bd3663dcfa92b">
     
 
-    <script defer  src="/script.js" ></script>
+    <script defer="" src="e71eb6aca88c8b11b5377ea3facdf59a"></script>
     
     <title>Leszek Myrkwa personal website</title>
   </head>
@@ -26,7 +21,7 @@
       <nav class="navbar">
         <ul class="navbar__items">
           <div class="logo">
-            <img src="img/favicon-32x32.png" alt="Website logo" />
+            <img src="8429114dd00279f0768155f63a7e7702" alt="Website logo">
             <p>Leszek Myrkwa</p> 
           </div>
 
@@ -37,7 +32,7 @@
         </ul>
       </nav>
 
-      <div class="header" >
+      <div class="header">
         <div class="header__quote">“In everything, love simplicity.”</div>
         <h1 class="header__heading">
           Hi, my name is Leszek and I'm
@@ -47,8 +42,8 @@
           I'm Self Taught Front End Developer.
         </p>
         <div class="header__video">
-          <video class="header__video--item" autoplay muted loop>
-            <source src="img/Surfers in the Sea.mp4" type="video/mp4" />
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="5b2bc41532701fd53a5de4a57c5d6efa" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -148,67 +143,67 @@
 
       <div class="portfolio" id="portfolio">
         <figure class="portfolio__card ">
-          <img src="/img/Bankist.PNG" alt="Portfolio card image" />
+          <img src="b93392d4d96b7e2acda08441bd6e84bd" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-bankistapp.netlify.app/">Visit Website</a>
+            <a class="portfolio__card--btn" href="a89fd75b82c5b7d367f4a3340d86e115">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Mapty.PNG" alt="Portfolio card image" />
+          <img src="140ec750cfb5544c6fb0e421606c0c5e" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-mapty.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="090014e2192892fbb19d9ea0b404e989">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Keeper.PNG" alt="Portfolio card image" />
+          <img src="c88c1d16773b5c91eeaac4b1bc238963" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               React ToDoList done on BootCamp from Angela Yu on Udemy 📒
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-keeper.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="d176b6d283ae2dca6ac7de1e6abf4151">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/JSgame.PNG" alt="Portfolio card image" />
+          <img src="9e99dd39ca8c80a9f5ba8f09a855a9c7" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-jsgame.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="a3ad91762e1f1978bfb9a452832f92eb">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Nexter.PNG" alt="Portfolio card image" />
+          <img src="add2b6ded5f6c7751f14647c7085b339" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
              CSS Grid website from Jonas Schmedtmann course. 💵
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-nexter.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="221215121b9f34a652a11af095ff2630">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Natours.PNG" alt="Portfolio card image" />
+          <img src="0d1f3fcc498d36a3c3e260fe3482a56a" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               CSS focused website from Jonas Schmedtmann course. 🗻
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-natours.netlify.app/">Visit Website</a>
+            <a class="portfolio__card--btn" href="d7f8590e6dbdbe118c00dcaf817545b2">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
@@ -217,7 +212,7 @@
 
     <div class="about" id="about">
       <div class="about__img">
-        <img src="./img/leszek.jpeg" alt="Leszek Myrkwa profile photo">
+        <img src="acadc655ab83a59e2b77c8a1a53b251b" alt="Leszek Myrkwa profile photo">
       </div>
       <div class="about__content">
         
@@ -229,9 +224,9 @@
       <h2>Want me in Your team? Just <span class="span-small">contact me</span>  and invite for inteview so we can get to know better.</h2>
 <div class="contact__container"> 
   <ul class="contact__container--socials">
-  <li><a href="https://www.linkedin.com/in/leszek-myrkwa-8957401a9/">LinkedIn <i class="fab fa-linkedin"></i></a></li>
-  <li><a href="https://twitter.com/LeszekMyrkwa">Twitter <i class="fab fa-twitter-square"></i></a> </li>
-  <li><a href="https://github.com/LewisHopee?tab=repositories">GitHub <i class="fab fa-github-square"></i></a></li>
+  <li><a href="9f299b51e71196aa08f7d91f86c64646">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+  <li><a href="12b8b8155c912673e8ce7d6a21ff9aeb">Twitter <i class="fab fa-twitter-square"></i></a> </li>
+  <li><a href="d81d04df8d8a57c88a21875752cad893">GitHub <i class="fab fa-github-square"></i></a></li>
 </ul>
 
 <ul class="contact__container--details">
@@ -245,5 +240,5 @@
     <div class="footer">
       
     </div>
-  </body>
+  </div></body>
 </html>

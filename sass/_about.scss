@@ -6,7 +6,7 @@
   align-items: center;
   @include borderBottom;
   @include boxShadow;
-  background-color: $color-secondary;
+  background-color: $color-primary;
 
   &__img {
     position: relative;
