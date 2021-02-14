@@ -26,7 +26,7 @@ html {
   html {
     font-size: 55%; } }
 
-@media only screen and (max-width: 66em) {
+@media only screen and (max-width: 68em) {
   .container {
     grid-template-rows: min-content 65vh 1fr 110vh 70vh 35vh min-content; } }
 
@@ -137,7 +137,7 @@ html {
       width: 100%;
       object-fit: cover; }
 
-@media only screen and (max-width: 66em) {
+@media only screen and (max-width: 68em) {
   .header__heading {
     font-size: 6.5rem; } }
 
@@ -169,6 +169,7 @@ html {
   .skills__container {
     display: grid;
     grid-template-columns: repeat(3, 33.33337%);
+    grid-template-rows: repeat(2, 1fr);
     gap: 0.5rem;
     align-items: center;
     justify-items: space-between;
@@ -192,7 +193,7 @@ html {
         font-weight: 700;
         margin-bottom: 1rem;
         text-transform: capitalize; }
-        @media only screen and (max-width: 66em) {
+        @media only screen and (max-width: 68em) {
           .skills__container--item .name {
             font-size: 1.5rem; } }
       .skills__container--item .box {
@@ -204,7 +205,7 @@ html {
         background-color: #e6e6e6d5;
         margin-bottom: 1rem;
         width: 50%;
-        height: 2rem;
+        height: 1.5rem;
         font-size: 1.5rem;
         border-radius: 0.5rem;
         font-weight: 700;
@@ -213,7 +214,8 @@ html {
         border: 1px solid #0e1113; }
         @media only screen and (max-width: 56.25em) {
           .skills__container--item .box {
-            height: 1rem; } }
+            height: 1rem;
+            font-size: 1rem; } }
         .skills__container--item .box .k1 {
           width: 80%; }
         .skills__container--item .box .k2 {
@@ -258,7 +260,7 @@ html {
   grid-template-columns: repeat(3, 30%);
   background-color: #f8f8f8;
   border-bottom: 0.5rem solid #0e76a8; }
-  @media only screen and (max-width: 66em) {
+  @media only screen and (max-width: 68em) {
     .portfolio {
       grid-template-columns: repeat(2, 50%); } }
   .portfolio__card {
@@ -276,23 +278,17 @@ html {
       transform: scale(1);
       z-index: 1000;
       opacity: 100; }
-    .portfolio__card:hover .portfolio__card--overlay {
-      width: 100%;
-      height: 100%;
-      top: 0;
-      opacity: 85%;
-      border-radius: 1rem; }
     .portfolio__card img {
       width: 100%;
       height: 100%;
       border-radius: 1rem;
-      filter: blur(0.15rem) grayscale(40%); }
+      filter: blur(0.05rem) grayscale(40%); }
     .portfolio__card figcaption {
       transition: all 0.6s;
       transform-origin: 50% -60% 0;
       transform: scale(0);
       z-index: 1000; }
-      @media only screen and (max-width: 66em) {
+      @media only screen and (max-width: 68em) {
         .portfolio__card figcaption {
           transform: scale(1);
           position: relative;
@@ -303,10 +299,11 @@ html {
       position: absolute;
       text-align: center;
       padding: 1.5rem;
+      background-color: #fff;
       z-index: 1000;
-      top: -25rem;
-      color: #fff; }
-      @media only screen and (max-width: 66em) {
+      top: -30rem;
+      color: #111; }
+      @media only screen and (max-width: 68em) {
         .portfolio__card--title {
           font-size: 1.5rem;
           top: -18rem; } }
@@ -337,31 +334,21 @@ html {
         background-color: #0e76a8;
         color: #e6e6e6d5;
         transform: scale(1.1) translateY(-0.1rem); }
-      @media only screen and (max-width: 66em) {
+      @media only screen and (max-width: 68em) {
         .portfolio__card--btn {
           font-size: 2rem;
           top: -5rem;
-          left: 8rem; } }
+          left: 17rem; } }
       @media only screen and (max-width: 56.25em) {
         .portfolio__card--btn {
           font-size: 1.3rem;
-          top: -4rem; } }
+          top: -4rem;
+          left: 17rem; } }
       @media only screen and (max-width: 39.375em) {
         .portfolio__card--btn {
           font-size: 1.3rem;
           top: -4rem;
-          left: 4rem; } }
-    .portfolio__card--overlay {
-      position: absolute;
-      background-color: #0e76a8; }
-      @media only screen and (max-width: 66em) {
-        .portfolio__card--overlay {
-          opacity: 100%;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          opacity: 85%;
-          border-radius: 1rem; } }
+          left: 12rem; } }
 
 .about {
   grid-column: full-start/ full-end;
@@ -442,7 +429,7 @@ html {
       top: 1rem;
       font-size: 1.5rem; } }
 
-@media only screen and (max-width: 66em) {
+@media only screen and (max-width: 68em) {
   .about__img {
     left: 5rem; }
     .about__img img {
@@ -558,6 +545,6 @@ html {
   color: #f8f8f8;
   height: 4rem; }
 
-@media only screen and (max-width: 66em) {
+@media only screen and (max-width: 68em) {
   .footer {
     font-size: 1.5rem; } }
