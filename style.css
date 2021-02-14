@@ -192,6 +192,9 @@ html {
         font-weight: 700;
         margin-bottom: 1rem;
         text-transform: capitalize; }
+        @media only screen and (max-width: 66em) {
+          .skills__container--item .name {
+            font-size: 1.5rem; } }
       .skills__container--item .box {
         position: relative;
         top: 50%;
@@ -208,6 +211,9 @@ html {
         box-shadow: 0 1.5rem 4rem rgba(14, 17, 19, 0.15);
         z-index: 1;
         border: 1px solid #0e1113; }
+        @media only screen and (max-width: 56.25em) {
+          .skills__container--item .box {
+            height: 1rem; } }
         .skills__container--item .box .k1 {
           width: 80%; }
         .skills__container--item .box .k2 {
@@ -252,6 +258,9 @@ html {
   grid-template-columns: repeat(3, 30%);
   background-color: #f8f8f8;
   border-bottom: 0.5rem solid #0e76a8; }
+  @media only screen and (max-width: 66em) {
+    .portfolio {
+      grid-template-columns: repeat(2, 50%); } }
   .portfolio__card {
     position: relative;
     overflow: hidden;
@@ -282,6 +291,13 @@ html {
       transform-origin: 50% -60% 0;
       transform: scale(0);
       z-index: 1000; }
+      @media only screen and (max-width: 66em) {
+        .portfolio__card figcaption {
+          transform: scale(1);
+          position: relative;
+          transform: scale(1);
+          z-index: 1000;
+          opacity: 100; } }
     .portfolio__card--title {
       position: absolute;
       text-align: center;
@@ -289,6 +305,18 @@ html {
       z-index: 1000;
       top: -25rem;
       color: #fff; }
+      @media only screen and (max-width: 66em) {
+        .portfolio__card--title {
+          font-size: 1.5rem;
+          top: -18rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .portfolio__card--title {
+          font-size: 1.3rem;
+          top: -15rem; } }
+      @media only screen and (max-width: 39.375em) {
+        .portfolio__card--title {
+          font-size: 1rem;
+          top: -12rem; } }
     .portfolio__card--btn {
       position: absolute;
       display: inline-block;
@@ -308,77 +336,31 @@ html {
         background-color: #0e76a8;
         color: #e6e6e6d5;
         transform: scale(1.1) translateY(-0.1rem); }
+      @media only screen and (max-width: 66em) {
+        .portfolio__card--btn {
+          font-size: 2rem;
+          top: -5rem;
+          left: 8rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .portfolio__card--btn {
+          font-size: 1.3rem;
+          top: -4rem; } }
+      @media only screen and (max-width: 39.375em) {
+        .portfolio__card--btn {
+          font-size: 1.3rem;
+          top: -4rem;
+          left: 4rem; } }
     .portfolio__card--overlay {
       position: absolute;
       background-color: #0e76a8; }
-
-@media only screen and (max-width: 1600px) and (max-height: 800px) {
-  .portfolioimg {
-    opacity: 40%; }
-  .portfolio figcaption {
-    position: relative;
-    transform: scale(1);
-    z-index: 1000;
-    opacity: 80; }
-  .portfolio__card--btn {
-    top: -10rem;
-    left: 34%; }
-  .portfolio__card--overlay {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    opacity: 65%;
-    border-radius: 1rem; } }
-
-@media only screen and (max-width: 66em) {
-  .portfolio {
-    grid-template-columns: repeat(2, 40vh); }
-    .portfolio__card--btn {
-      top: -7rem;
-      left: 8rem;
-      transform: scale(1); }
-    .portfolio__card--title {
-      top: -18rem;
-      font-size: 1.5rem; } }
-
-@media only screen and (max-width: 630px) {
-  .portfolio {
-    grid-template-columns: repeat(2, 35vh); }
-    .portfolio__card--btn {
-      top: -7rem;
-      left: 8rem;
-      transform: scale(1); }
-    .portfolio__card--title {
-      top: -18rem;
-      font-size: 1.5rem; } }
-
-@media only screen and (max-height: 690px) and (max-width: 800px) {
-  .portfolio {
-    grid-template-columns: repeat(2, 1fr);
-    border-radius: 1rem; } }
-
-@media only screen and (max-width: 400px) and (max-height: 900px) {
-  .portfolio {
-    grid-template-columns: repeat(2, 23vh); }
-    .portfolioimg {
-      opacity: 40%; }
-    .portfolio figcaption {
-      position: relative;
-      transform: scale(1);
-      z-index: 1000;
-      opacity: 80; }
-    .portfolio__card--btn {
-      top: -6rem;
-      left: 24%; }
-    .portfolio__card--title {
-      top: -15rem;
-      font-size: 1.3rem; }
-    .portfolio__card--overlay {
-      width: 100%;
-      height: 100%;
-      top: 0;
-      opacity: 65%;
-      border-radius: 1rem; } }
+      @media only screen and (max-width: 66em) {
+        .portfolio__card--overlay {
+          opacity: 100%;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          opacity: 85%;
+          border-radius: 1rem; } }
 
 .about {
   grid-column: full-start/ full-end;
@@ -530,6 +512,9 @@ html {
     font-size: 3rem;
     font-weight: 700;
     text-align: center; }
+    @media only screen and (max-width: 39.375em) {
+      .contact h2 {
+        font-size: 2rem; } }
   .contact__container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -546,30 +531,20 @@ html {
       color: #0e1113;
       font-size: 3rem;
       padding: 1rem; }
+      @media only screen and (max-width: 39.375em) {
+        .contact__container--socials li > a {
+          font-size: 2rem; } }
       .contact__container--socials li > a:hover {
         color: #0e76a8; }
     .contact__container--details li {
       list-style: none;
       transition: all 0.4s;
       font-size: 3rem; }
+      @media only screen and (max-width: 39.375em) {
+        .contact__container--details li {
+          font-size: 1.5rem; } }
       .contact__container--details li:hover {
         transform: scale(1.1); }
-
-@media only screen and (max-width: 66em) {
-  .contact h2 {
-    font-size: 2.5rem; }
-  .contact__container li > a {
-    font-size: 2.75rem; }
-  .contact__container--details li {
-    font-size: 2.5rem; } }
-
-@media only screen and (max-width: 39.375em) {
-  .contact {
-    overflow: hidden; }
-    .contact__container li > a {
-      font-size: 2.5rem; }
-    .contact__container--details li {
-      font-size: 2.2rem; } }
 
 .footer {
   grid-column: full-start/full-end;

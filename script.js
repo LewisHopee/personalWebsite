@@ -34,11 +34,11 @@ class RenderSkills {
 
 const names = [
   "HTML",
-  "CSS / SASS / Responsive Design",
-  "Javascript / ES6 / OOP",
+  "CSS / SASS",
+  "Javascript / ES6",
   "NodeJS / MongoDB",
-  "Async / Await / API",
-  "React / Redux &rArr in Progress",
+  "Async / Await",
+  "React &rArr; in Progress",
 ];
 //Render skill section
 const skillSection = new RenderSkills(names);
@@ -47,7 +47,7 @@ skillSection.render(names);
 
 //Render footer with up to date date.
 
-const footerHTML = `&copy; Leszek Myrkwa ${date} , as this is my personal website I allow to get inspiration by it but not for personal use or for comercial use`;
+const footerHTML = `&copy; Leszek Myrkwa ${date}`;
 
 const aboutHTML = `<h2>Hi, as You know my name is Leszek and I'm <span class="span-small">Front End Developer.</span>  💻</h2>
 <p>I'm highly motivated to achive my goal of becoming better and better each day, that's why every day I learn something new and try to progress. For now I focus on Front End but when I start feel like I'm really good with it, I want to start also with <span class="span-small">Back End to become Full Stack Dev</span>  one day.</p>

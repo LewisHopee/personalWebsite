@@ -9,6 +9,10 @@
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
+
+    @media only screen and (max-width: $bp-smallest) {
+      font-size: 2rem;
+    }
   }
 
   &__container {
@@ -35,6 +39,10 @@
         font-size: 3rem;
         padding: 1rem;
 
+        @media only screen and (max-width: $bp-smallest) {
+          font-size: 2rem;
+        }
+
         &:hover {
           color: $color-secondary;
         }
@@ -47,43 +55,13 @@
         transition: all 0.4s;
         font-size: 3rem;
 
+        @media only screen and (max-width: $bp-smallest) {
+          font-size: 1.5rem;
+        }
+
         &:hover {
           transform: scale(1.1);
         }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: $bp-medium) {
-  .contact {
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    &__container {
-      & li > a {
-        font-size: 2.75rem;
-      }
-
-      &--details li {
-        font-size: 2.5rem;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: $bp-smallest) {
-  .contact {
-    overflow: hidden;
-
-    &__container {
-      & li > a {
-        font-size: 2.5rem;
-      }
-
-      &--details li {
-        font-size: 2.2rem;
       }
     }
   }
