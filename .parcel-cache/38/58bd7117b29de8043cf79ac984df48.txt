@@ -110,7 +110,7 @@
 65D:\Work\my-portfolio\MyWeb\node_modules\querystring-es3\encode.js130577003180000000 0
 46D:\Work\my-portfolio\MyWeb\node_modules\@babel132577157196600685 1
 65D:\Work\my-portfolio\MyWeb\node_modules\postcss-reporter\index.js121436361000000000 0
-31D:\Work\my-portfolio\MyWeb\dist132578749308433656 1
+31D:\Work\my-portfolio\MyWeb\dist132578752469908891 1
 113D:\Work\my-portfolio\MyWeb\node_modules\util.promisify\node_modules\es-abstract\2015\OrdinaryDefineOwnProperty.js121436361000000000 0
 87D:\Work\my-portfolio\MyWeb\node_modules\set-value\node_modules\extend-shallow\README.md130800381770000000 0
 80D:\Work\my-portfolio\MyWeb\node_modules\node-sass\src\libsass\src\utf8\checked.h121436361000000000 0
@@ -163,7 +163,7 @@
 60D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\useWith.js121436361000000000 0
 45D:\Work\my-portfolio\MyWeb\node_modules\bn.js132577157230238851 1
 60D:\Work\my-portfolio\MyWeb\node_modules\tough-cookie\LICENSE121436361000000000 0
-37D:\Work\my-portfolio\MyWeb\index.html132577865077721272 0
+37D:\Work\my-portfolio\MyWeb\index.html132578752466447922 0
 76D:\Work\my-portfolio\MyWeb\node_modules\emphasize\node_modules\color-convert132577158249048440 1
 94D:\Work\my-portfolio\MyWeb\node_modules\csso\node_modules\css-tree\lib\syntax\node\Operator.js121436361000000000 0
 70D:\Work\my-portfolio\MyWeb\node_modules\postcss-cli\node_modules\yargs132568518901171936 1
@@ -4388,7 +4388,7 @@
 57D:\Work\my-portfolio\MyWeb\node_modules\@babel\preset-env132577157207870429 1
 97D:\Work\my-portfolio\MyWeb\node_modules\postcss-cli\node_modules\yargs\build\lib\yargs-factory.js121436361000000000 0
 62D:\Work\my-portfolio\MyWeb\node_modules\lines-and-columns\dist132568518860768866 1
-50D:\Work\my-portfolio\MyWeb\dist\Mapty.eb04c2f7.PNG132577784795295147 0
+50D:\Work\my-portfolio\MyWeb\dist\Mapty.eb04c2f7.PNG132578752469158862 0
 106D:\Work\my-portfolio\MyWeb\node_modules\util.promisify\node_modules\es-abstract\2018\SpeciesConstructor.js121436361000000000 0
 72D:\Work\my-portfolio\MyWeb\node_modules\es-abstract\2016\TimeFromYear.js121436361000000000 0
 79D:\Work\my-portfolio\MyWeb\node_modules\util.promisify\node_modules\es-abstract132577159148638496 1
@@ -6615,7 +6615,7 @@
 73D:\Work\my-portfolio\MyWeb\node_modules\tar\lib\extended-header-writer.js121436361000000000 0
 71D:\Work\my-portfolio\MyWeb\node_modules\caniuse-lite\data\regions\PM.js121436361000000000 0
 58D:\Work\my-portfolio\MyWeb\node_modules\tar\lib\extract.js121436361000000000 0
-58D:\Work\my-portfolio\MyWeb\dist\favicon-16x16.d3096d3c.png132577784795845172 0
+58D:\Work\my-portfolio\MyWeb\dist\favicon-16x16.d3096d3c.png132578752469048839 0
 86D:\Work\my-portfolio\MyWeb\node_modules\caniuse-lite\data\features\mutationobserver.js121436361000000000 0
 83D:\Work\my-portfolio\MyWeb\node_modules\regjsparser\node_modules\jsesc\package.json132577157215100451 0
 55D:\Work\my-portfolio\MyWeb\node_modules\tar\lib\pack.js121436361000000000 0
@@ -10638,7 +10638,7 @@
 119D:\Work\my-portfolio\MyWeb\node_modules\postcss-modules-local-by-default\node_modules\postcss\docs\guidelines\plugin.md121436361000000000 0
 75D:\Work\my-portfolio\MyWeb\node_modules\postcss-modules-extract-imports\lib132577158664408611 1
 64D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\isEqualWith.js121436361000000000 0
-52D:\Work\my-portfolio\MyWeb\dist\Natours.30f31525.PNG132577784795355137 0
+52D:\Work\my-portfolio\MyWeb\dist\Natours.30f31525.PNG132578752469418878 0
 84D:\Work\my-portfolio\MyWeb\node_modules\postcss-modules-extract-imports\package.json132577158671023325 0
 81D:\Work\my-portfolio\MyWeb\node_modules\postcss-modules-extract-imports\README.md130866229650000000 0
 108D:\Work\my-portfolio\MyWeb\node_modules\postcss-modules-extract-imports\node_modules\postcss\CONTRIBUTING.md121436361000000000 0
@@ -14269,7 +14269,7 @@
 69D:\Work\my-portfolio\MyWeb\node_modules\fast-glob\out\utils\path.d.ts121436361000000000 0
 56D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\map.js121436361000000000 0
 60D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\mapKeys.js121436361000000000 0
-53D:\Work\my-portfolio\MyWeb\dist\index.b4f5078c.js.map132577784796035179 0
+53D:\Work\my-portfolio\MyWeb\dist\index.b4f5078c.js.map132578752469338867 0
 71D:\Work\my-portfolio\MyWeb\node_modules\caniuse-lite\data\regions\MR.js121436361000000000 0
 62D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\mapValues.js121436361000000000 0
 60D:\Work\my-portfolio\MyWeb\node_modules\lodash\fp\matches.js121436361000000000 0
@@ -17376,7 +17376,7 @@
 84D:\Work\my-portfolio\MyWeb\node_modules\domutils\node_modules\domhandler\lib\node.js121436361000000000 0
 65D:\Work\my-portfolio\MyWeb\node_modules\domutils\lib\helpers.d.ts121436361000000000 0
 70D:\Work\my-portfolio\MyWeb\node_modules\core-js\internals\is-regexp.js121436361000000000 0
-49D:\Work\my-portfolio\MyWeb\dist\index.b4f5078c.js132577784795945171 0
+49D:\Work\my-portfolio\MyWeb\dist\index.b4f5078c.js132578752469168848 0
 73D:\Work\my-portfolio\MyWeb\node_modules\core-js\modules\esnext.set.map.js121436361000000000 0
 63D:\Work\my-portfolio\MyWeb\node_modules\domutils\lib\helpers.js121436361000000000 0
 67D:\Work\my-portfolio\MyWeb\node_modules\domutils\lib\index.d.ts.map121436361000000000 0
@@ -18244,7 +18244,7 @@
 70D:\Work\my-portfolio\MyWeb\node_modules\core-js\stable\string\fixed.js121436361000000000 0
 70D:\Work\my-portfolio\MyWeb\node_modules\core-js\stable\string\index.js121436361000000000 0
 73D:\Work\my-portfolio\MyWeb\node_modules\core-js\stable\string\iterator.js121436361000000000 0
-52D:\Work\my-portfolio\MyWeb\dist\Bankist.9f02d98b.PNG132577784795265131 0
+52D:\Work\my-portfolio\MyWeb\dist\Bankist.9f02d98b.PNG132578752469068838 0
 74D:\Work\my-portfolio\MyWeb\node_modules\core-js\stable\string\match-all.js121436361000000000 0
 58D:\Work\my-portfolio\MyWeb\node_modules\async-foreach\test132568518837707121 1
 72D:\Work\my-portfolio\MyWeb\node_modules\core-js\stable\string\pad-end.js121436361000000000 0
@@ -20661,7 +20661,7 @@
 67D:\Work\my-portfolio\MyWeb\node_modules\@parcel\utils\src\is-url.js121436361000000000 0
 78D:\Work\my-portfolio\MyWeb\node_modules\@parcel\utils\src\isDirectoryInside.js121436361000000000 0
 71D:\Work\my-portfolio\MyWeb\node_modules\@parcel\utils\src\objectHash.js121436361000000000 0
-51D:\Work\my-portfolio\MyWeb\dist\Keeper.a08f20f6.PNG132577784795245130 0
+51D:\Work\my-portfolio\MyWeb\dist\Keeper.a08f20f6.PNG132578752469008852 0
 74D:\Work\my-portfolio\MyWeb\node_modules\@parcel\utils\src\openInBrowser.js121436361000000000 0
 75D:\Work\my-portfolio\MyWeb\node_modules\@parcel\utils\src\parseCSSImport.js121436361000000000 0
 82D:\Work\my-portfolio\MyWeb\node_modules\@parcel\config-default\test\config.test.js121436361000000000 0
@@ -22407,23 +22407,23 @@
 53D:\Work\my-portfolio\MyWeb\img\Surfers in the Sea.mp4132569395028957870 0
 52D:\Work\my-portfolio\MyWeb\dist\Bankist.9542ff0a.PNG132578749241793800 0
 58D:\Work\my-portfolio\MyWeb\dist\favicon-16x16.830e8261.png132578749240913736 0
-58D:\Work\my-portfolio\MyWeb\dist\favicon-32x32.5a8ad47f.png132577784795855173 0
+58D:\Work\my-portfolio\MyWeb\dist\favicon-32x32.5a8ad47f.png132578752469048839 0
 49D:\Work\my-portfolio\MyWeb\dist\index.157699ef.js132577749393182685 0
 53D:\Work\my-portfolio\MyWeb\dist\index.157699ef.js.map132577748252559958 0
 49D:\Work\my-portfolio\MyWeb\dist\index.b7690e5e.js132578749308323649 0
 53D:\Work\my-portfolio\MyWeb\dist\index.b7690e5e.js.map132578749308413652 0
 49D:\Work\my-portfolio\MyWeb\dist\index.dfaadc69.js132577759823622647 0
 53D:\Work\my-portfolio\MyWeb\dist\index.dfaadc69.js.map132577759823682661 0
-50D:\Work\my-portfolio\MyWeb\dist\index.f556d9ac.css132577784795955175 0
-54D:\Work\my-portfolio\MyWeb\dist\index.f556d9ac.css.map132577784796035179 0
+50D:\Work\my-portfolio\MyWeb\dist\index.f556d9ac.css132578752469178833 0
+54D:\Work\my-portfolio\MyWeb\dist\index.f556d9ac.css.map132578752469348864 0
 50D:\Work\my-portfolio\MyWeb\dist\index.f9b026d8.css132577759823622647 0
 54D:\Work\my-portfolio\MyWeb\dist\index.f9b026d8.css.map132577759823672655 0
-42D:\Work\my-portfolio\MyWeb\dist\index.html132578749308343624 0
-51D:\Work\my-portfolio\MyWeb\dist\JSgame.cfefa34a.PNG132577784795245130 0
+42D:\Work\my-portfolio\MyWeb\dist\index.html132578752469168848 0
+51D:\Work\my-portfolio\MyWeb\dist\JSgame.cfefa34a.PNG132578752469008852 0
 51D:\Work\my-portfolio\MyWeb\dist\Keeper.0cfe775e.PNG132578749241713785 0
-52D:\Work\my-portfolio\MyWeb\dist\leszek.dbe88315.jpeg132577784795235134 0
+52D:\Work\my-portfolio\MyWeb\dist\leszek.dbe88315.jpeg132578752469068838 0
 52D:\Work\my-portfolio\MyWeb\dist\Natours.e9c95aa6.PNG132578749242413846 0
-51D:\Work\my-portfolio\MyWeb\dist\Nexter.9018ff0e.PNG132577784795305133 0
+51D:\Work\my-portfolio\MyWeb\dist\Nexter.9018ff0e.PNG132578752469308884 0
 63D:\Work\my-portfolio\MyWeb\dist\Surfers in the Sea.0b006173.mp4132578749242733855 0
-63D:\Work\my-portfolio\MyWeb\dist\Surfers in the Sea.78c69286.mp4132577784796255184 0
+63D:\Work\my-portfolio\MyWeb\dist\Surfers in the Sea.78c69286.mp4132578752469858903 0
 48D:\Work\my-portfolio\MyWeb\.vscode\settings.json132573341747562414 0

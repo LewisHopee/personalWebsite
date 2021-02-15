@@ -1,24 +1,19 @@
 <!DOCTYPE html> 
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Montserrat font -->
     
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
-    <link rel="icon" 
-    type="image/png" 
-    href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="/favicon-16x16.HASH_REF_e1a0429ce0c5dac92cb4c721d3096d3c.png">
     
 
-    <script defer  src="/script.js" ></script>
-    <link rel="stylesheet" href="style.css" />
+    <script defer="" src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+    <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
     <title>Leszek Myrkwa personal website</title>
   </head>
   <body>
@@ -26,7 +21,7 @@
       <nav class="navbar">
         <ul class="navbar__items">
           <div class="logo">
-            <img src="img/favicon-32x32.png" alt="Website logo" />
+            <img src="/favicon-32x32.HASH_REF_968649c24bee2be1afd98a095a8ad47f.png" alt="Website logo">
             <p>Leszek Myrkwa</p> 
           </div>
 
@@ -37,7 +32,7 @@
         </ul>
       </nav>
 
-      <div class="header" >
+      <div class="header">
         <div class="header__quote">“In everything, love simplicity.”</div>
         <h1 class="header__heading">
           Hi, my name is Leszek and I'm
@@ -47,8 +42,8 @@
           I'm Self Taught Front End Developer.
         </p>
         <div class="header__video">
-          <video class="header__video--item" autoplay muted loop>
-            <source src="img/Surfers in the Sea.mp4" type="video/mp4" />
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="/Surfers%20in%20the%20Sea.HASH_REF_a198a26b674761e0167628a278c69286.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -148,7 +143,7 @@
 
       <div class="portfolio" id="portfolio">
         <figure class="portfolio__card ">
-          <img src="/img/Bankist.PNG" alt="Portfolio card image" />
+          <img src="/Bankist.HASH_REF_da4b2bd1c632bf14b64b8b3b9f02d98b.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
@@ -161,7 +156,7 @@
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Mapty.PNG" alt="Portfolio card image" />
+          <img src="/Mapty.HASH_REF_127b3cc545361dbae1ae7175eb04c2f7.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
@@ -172,7 +167,7 @@
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Keeper.PNG" alt="Portfolio card image" />
+          <img src="/Keeper.HASH_REF_0ea4907026318de6edc24221a08f20f6.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               React ToDoList done on BootCamp from Angela Yu on Udemy 📒
@@ -183,7 +178,7 @@
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/JSgame.PNG" alt="Portfolio card image" />
+          <img src="/JSgame.HASH_REF_a6d0f5210214e72b78d7538acfefa34a.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
@@ -194,7 +189,7 @@
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Nexter.PNG" alt="Portfolio card image" />
+          <img src="/Nexter.HASH_REF_32c2987ab0c7a646efe7eb579018ff0e.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
              CSS Grid website from Jonas Schmedtmann course. 💵
@@ -205,7 +200,7 @@
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Natours.PNG" alt="Portfolio card image" />
+          <img src="/Natours.HASH_REF_530b50e8922ddd9609f8086730f31525.PNG" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               CSS focused website from Jonas Schmedtmann course. 🗻
@@ -219,7 +214,7 @@
 
     <div class="about" id="about">
       <div class="about__img">
-        <img src="./img/leszek.jpeg" alt="Leszek Myrkwa profile photo">
+        <img src="/leszek.HASH_REF_b9a42f11d12e3073c8d2d245dbe88315.jpeg" alt="Leszek Myrkwa profile photo">
       </div>
       <div class="about__content">
         
@@ -247,5 +242,5 @@
     <div class="footer">
       
     </div>
-  </body>
+  </div></body>
 </html>
