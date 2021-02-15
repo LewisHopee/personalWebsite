@@ -1,24 +1,19 @@
-html <!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Montserrat font -->
     
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+    <link href="441ae37e3df3b8cb57c810be37944610" rel="stylesheet">
+    <link rel="stylesheet" href="a514fefb9f3b5fd54c0bdf165faa0c1c" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
-    <link rel="icon" 
-    type="image/png" 
-    href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="e01d52242773c2a739f8741e4766218c">
     
 
-    <script defer  src="/script.js" ></script>
-    <link rel="stylesheet" href="style.css" />
+    <script defer="" src="b99a878c08d8235b1c87df06de3a4e46"></script>
+    <link rel="stylesheet" href="989bd40690a8b825b2db35b3bf512629">
     <title>Leszek Myrkwa personal website</title>
   </head>
   <body>
@@ -26,7 +21,7 @@ html <!DOCTYPE html>
       <nav class="navbar">
         <ul class="navbar__items">
           <div class="logo">
-            <img src="img/favicon-32x32.png" alt="Website logo" />
+            <img src="d74a79b692c8780bb147fcf8cff2c4cc" alt="Website logo">
             <p>Leszek Myrkwa</p> 
           </div>
 
@@ -37,7 +32,7 @@ html <!DOCTYPE html>
         </ul>
       </nav>
 
-      <div class="header" >
+      <div class="header">
         <div class="header__quote">“In everything, love simplicity.”</div>
         <h1 class="header__heading">
           Hi, my name is Leszek and I'm
@@ -47,8 +42,8 @@ html <!DOCTYPE html>
           I'm Self Taught Front End Developer.
         </p>
         <div class="header__video">
-          <video class="header__video--item" autoplay muted loop>
-            <source src="img/Surfers in the Sea.mp4" type="video/mp4" />
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="fca4d0283d725c4a53931419e15224a0" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -148,12 +143,12 @@ html <!DOCTYPE html>
 
       <div class="portfolio" id="portfolio">
         <figure class="portfolio__card ">
-          <img src="/img/Bankist.PNG" alt="Portfolio card image" />
+          <img src="0d7911904d53df99c37dc5ea256d2c23" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-bankistapp.netlify.app/">Visit Website</a>
+            <a class="portfolio__card--btn" href="b4f6f4f6874b055816a8be23a1b388d6">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay">
            
@@ -161,56 +156,56 @@ html <!DOCTYPE html>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Mapty.PNG" alt="Portfolio card image" />
+          <img src="5aa169d29f3a98c76fbe921488d15bdb" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-mapty.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="301326dc3c06268de96ce4fdcbcdbaa3">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Keeper.PNG" alt="Portfolio card image" />
+          <img src="763aadf5bd866e55322ef4315e1ecaaa" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               React ToDoList done on BootCamp from Angela Yu on Udemy 📒
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-keeper.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="7bbb03e9c806196a5f830128161e7183">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/JSgame.PNG" alt="Portfolio card image" />
+          <img src="f973c3e83e3e6f8abc67e14c5e109e19" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-jsgame.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="8248afcc6fcc5b1f9a51da127a0782dc">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Nexter.PNG" alt="Portfolio card image" />
+          <img src="b6ad5f0e2a8e01e3f772f46727f40549" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
              CSS Grid website from Jonas Schmedtmann course. 💵
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-nexter.netlify.app">Visit Website</a>
+            <a class="portfolio__card--btn" href="e08d283eb754fdd60dcc725a76a1e15c">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
 
         <figure class="portfolio__card">
-          <img src="/img/Natours.PNG" alt="Portfolio card image" />
+          <img src="e6b912c3a5314d56e86565a7ad203800" alt="Portfolio card image">
           <figcaption>
             <h1 class="portfolio__card--title">
               CSS focused website from Jonas Schmedtmann course. 🗻
             </h1>
-            <a class="portfolio__card--btn" href="https://leszek-natours.netlify.app/">Visit Website</a>
+            <a class="portfolio__card--btn" href="2e3992491b32f652850b005d3d03a79c">Visit Website</a>
           </figcaption>
           <div class="portfolio__card--overlay"></div>
         </figure>
@@ -219,7 +214,7 @@ html <!DOCTYPE html>
 
     <div class="about" id="about">
       <div class="about__img">
-        <img src="./img/leszek.jpeg" alt="Leszek Myrkwa profile photo">
+        <img src="ca08feb379cc9e35d564e511682f9393" alt="Leszek Myrkwa profile photo">
       </div>
       <div class="about__content">
         
@@ -231,9 +226,9 @@ html <!DOCTYPE html>
       <h2>Want me in Your team? Just <span class="span-small">contact me</span>  and invite for inteview so we can get to know better.</h2>
 <div class="contact__container"> 
   <ul class="contact__container--socials">
-  <li><a href="https://www.linkedin.com/in/leszek-myrkwa-8957401a9/">LinkedIn <i class="fab fa-linkedin"></i></a></li>
-  <li><a href="https://twitter.com/LeszekMyrkwa">Twitter <i class="fab fa-twitter-square"></i></a> </li>
-  <li><a href="https://github.com/LewisHopee?tab=repositories">GitHub <i class="fab fa-github-square"></i></a></li>
+  <li><a href="3ae4e94ebcc57943df50cfbf29ed010b">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+  <li><a href="3f4b9acc320ffe2cb06dae421ec936f5">Twitter <i class="fab fa-twitter-square"></i></a> </li>
+  <li><a href="07a841d2735ba830f53b4e3fe234ab92">GitHub <i class="fab fa-github-square"></i></a></li>
 </ul>
 
 <ul class="contact__container--details">
@@ -247,5 +242,5 @@ html <!DOCTYPE html>
     <div class="footer">
       
     </div>
-  </body>
+  </div></body>
 </html>

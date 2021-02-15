@@ -5,7 +5,14 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist",
+    "watch:sass": "node-sass sass/main.scss style.css -w",
+    "devserver": "live-server",
+    "start:sass": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss style.comp.css",
+    "prefix:sass": "postcss --use autoprefixer -b 'last 10 versions' style.comp.css -o style.prefix.css",
+    "compress:sass": "node-sass style.prefix.css style.css --output-style compressed",
+    "build:sass": "npm-run-all compile:sass prefix:sass compress:sass"
   },
   "devDependencies": {
     "@parcel/optimizer-cssnano": "^2.0.0-nightly.592",
