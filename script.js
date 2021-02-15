@@ -5,45 +5,45 @@ const footer = document.querySelector(".footer");
 const about = document.querySelector(".about__content");
 const date = new Date().getFullYear();
 
-class RenderSkills {
-  constructor(arrNames) {
-    this.arrNames = arrNames;
-  }
+// class RenderSkills {
+//   constructor(arrNames) {
+//     this.arrNames = arrNames;
+//   }
 
-  render(arrNames) {
-    arrNames.forEach((name, i) => {
-      const html = `
-        <li class="skills__container--item">
-          <p class="name ">${name}</p>
-          <p class="skillLevel">Knowledge</p>
-          <div class="box">
-           
-            <div class="loading k${i + 1}"></div>
-          </div>
-        
-          <p class="skillLevel">Confidence</p>
-          <div class="box">
-            <div class="loading c${i + 1}"></div>
-          </div>
-        </li>`;
+//   render(arrNames) {
+//     arrNames.forEach((name, i) => {
+//       const html = `
+//         <li class="skills__container--item">
+//           <p class="name ">${name}</p>
+//           <p class="skillLevel">Knowledge</p>
+//           <div class="box">
 
-      skillsContainer.insertAdjacentHTML("beforeend", html);
-    });
-  }
-}
+//             <div class="loading k${i + 1}"></div>
+//           </div>
 
-const names = [
-  "HTML",
-  "CSS / SASS",
-  "Javascript / ES6",
-  "NodeJS / MongoDB",
-  "Async / Await",
-  "React &rArr; in Progress",
-];
+//           <p class="skillLevel">Confidence</p>
+//           <div class="box">
+//             <div class="loading c${i + 1}"></div>
+//           </div>
+//         </li>`;
+
+//       skillsContainer.insertAdjacentHTML("beforeend", html);
+//     });
+//   }
+// }
+
+// const names = [
+//   "HTML",
+//   "CSS / SASS",
+//   "Javascript / ES6",
+//   "NodeJS / MongoDB",
+//   "Async / Await",
+//   "React &rArr; in Progress",
+// ];
 //Render skill section
-const skillSection = new RenderSkills(names);
+// const skillSection = new RenderSkills(names);
 
-skillSection.render(names);
+// skillSection.render(names);
 
 //Render footer with up to date date.
 
