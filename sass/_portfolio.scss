@@ -16,12 +16,12 @@
     grid-template-columns: repeat(2, 40%);
   }
 
-  @media only screen and (max-height: $bp-medium) and (max-width: $bp-medium) {
+  @media only screen and (max-height: $bp-medium) and (max-width: $bp-small) {
     grid-template-columns: repeat(3, 25%);
   }
 
   @media only screen and (max-height: 420px) and (max-width: $bp-large) {
-    grid-template-columns: repeat(3, 20%);
+    grid-template-columns: repeat(3, 30%);
   }
 
   &__card {
