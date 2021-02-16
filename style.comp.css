@@ -257,7 +257,7 @@ html {
   border-bottom: 0.5rem solid #0e76a8; }
   @media only screen and (max-width: 68em) {
     .portfolio {
-      grid-template-columns: repeat(2, 40%); } }
+      grid-template-columns: repeat(2, 50%); } }
   @media only screen and (max-height: 420px) and (max-width: 68em) {
     .portfolio {
       grid-template-columns: repeat(3, 35%); } }
