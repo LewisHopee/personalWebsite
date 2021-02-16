@@ -13,7 +13,15 @@
   @include borderBottom;
 
   @media only screen and (max-width: $bp-medium) {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 40%);
+  }
+
+  @media only screen and (max-height: $bp-medium) {
+    grid-template-columns: repeat(3, 25%);
+  }
+
+  @media only screen and (max-height: 420px) {
+    grid-template-columns: repeat(3, 20%);
   }
 
   &__card {
