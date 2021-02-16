@@ -258,10 +258,7 @@ html {
   @media only screen and (max-width: 68em) {
     .portfolio {
       grid-template-columns: repeat(2, 40%); } }
-  @media only screen and (max-height: 68em) and (max-width: 56.25em) {
-    .portfolio {
-      grid-template-columns: repeat(3, 25%); } }
-  @media only screen and (max-height: 420px) and (max-width: 72.5em) {
+  @media only screen and (max-height: 420px) and (max-width: 68em) {
     .portfolio {
       grid-template-columns: repeat(3, 30%); } }
   .portfolio__card {
