@@ -208,7 +208,6 @@ html {
         border-radius: 0.5rem;
         font-weight: 700;
         box-shadow: 0 1.5rem 4rem rgba(14, 17, 19, 0.15);
-        z-index: 1;
         border: 1px solid #0e1113;
         overflow: hidden; }
         @media only screen and (max-width: 56.25em) {
@@ -247,7 +246,7 @@ html {
 
 @media only screen and (max-width: 72.5em) {
   .skills__container {
-    grid-template-columns: repeat(2, minmax(min-content, 1fr)); } }
+    grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 .portfolio {
   grid-column: full-start/full-end;
