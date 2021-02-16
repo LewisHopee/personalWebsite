@@ -260,7 +260,7 @@ html {
       grid-template-columns: repeat(2, 40%); } }
   @media only screen and (max-height: 420px) and (max-width: 68em) {
     .portfolio {
-      grid-template-columns: repeat(3, 30%); } }
+      grid-template-columns: repeat(3, 35%); } }
   .portfolio__card {
     position: relative;
     overflow: hidden;

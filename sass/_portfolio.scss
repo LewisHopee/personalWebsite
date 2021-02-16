@@ -17,7 +17,7 @@
   }
 
   @media only screen and (max-height: 420px) and (max-width: $bp-medium) {
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(3, 35%);
   }
 
   &__card {
