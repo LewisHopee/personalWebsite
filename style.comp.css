@@ -185,12 +185,12 @@ html {
         font-weight: 700; }
       .skills__container--item .name {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
         text-transform: capitalize; }
         @media only screen and (max-width: 68em) {
           .skills__container--item .name {
-            font-size: 1.5rem; } }
+            font-size: 2rem; } }
       .skills__container--item .box {
         position: relative;
         top: 50%;
@@ -198,6 +198,7 @@ html {
         transform: translate(-50%, -50%);
         color: #f8f8f8;
         background-color: #e6e6e6d5;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         width: 50%;
         height: 1.5rem;
@@ -218,22 +219,10 @@ html {
         .skills__container--item .box .k3 {
           width: 60%; }
         .skills__container--item .box .k4 {
-          width: 40%; }
+          width: 45%; }
         .skills__container--item .box .k5 {
           width: 60%; }
         .skills__container--item .box .k6 {
-          width: 40%; }
-        .skills__container--item .box .c1 {
-          width: 85%; }
-        .skills__container--item .box .c2 {
-          width: 85%; }
-        .skills__container--item .box .c3 {
-          width: 65%; }
-        .skills__container--item .box .c4 {
-          width: 45%; }
-        .skills__container--item .box .c5 {
-          width: 50%; }
-        .skills__container--item .box .c6 {
           width: 45%; }
         .skills__container--item .box .loading {
           height: 100%;
@@ -252,15 +241,15 @@ html {
   gap: 1rem;
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   background-color: #f8f8f8;
   border-bottom: 0.5rem solid #0e76a8; }
   @media only screen and (max-width: 68em) {
     .portfolio {
-      grid-template-columns: repeat(2, 50%); } }
+      grid-template-columns: repeat(2, minmax(0, 1fr)); } }
   @media only screen and (max-height: 420px) and (max-width: 68em) {
     .portfolio {
-      grid-template-columns: repeat(3, 35%); } }
+      grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .portfolio__card {
     position: relative;
     overflow: hidden;

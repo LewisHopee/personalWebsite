@@ -5,47 +5,40 @@ const footer = document.querySelector(".footer");
 const about = document.querySelector(".about__content");
 const date = new Date().getFullYear();
 
-// class RenderSkills {
-//   constructor(arrNames) {
-//     this.arrNames = arrNames;
-//   }
+class RenderSkills {
+  constructor(arrNames) {
+    this.arrNames = arrNames;
+  }
 
-//   render(arrNames) {
-//     arrNames.forEach((name, i) => {
-//       const html = `
-//         <li class="skills__container--item">
-//           <p class="name ">${name}</p>
-//           <p class="skillLevel">Knowledge</p>
-//           <div class="box">
+  render(arrNames) {
+    arrNames.forEach((name, i) => {
+      const html = `
+        <li class="skills__container--item">
+          <p class="name ">${name}</p>
+          
+          <div class="box">
+            <div class="loading k${i + 1}"></div>
+          </div>
 
-//             <div class="loading k${i + 1}"></div>
-//           </div>
+        </li>`;
 
-//           <p class="skillLevel">Confidence</p>
-//           <div class="box">
-//             <div class="loading c${i + 1}"></div>
-//           </div>
-//         </li>`;
+      skillsContainer.insertAdjacentHTML("beforeend", html);
+    });
+  }
+}
 
-//       skillsContainer.insertAdjacentHTML("beforeend", html);
-//     });
-//   }
-// }
+const names = [
+  "HTML",
+  "CSS / SASS",
+  "Javascript / ES6",
+  "NodeJS / MongoDB",
+  "Async / Await",
+  "React &rArr; in Progress",
+];
 
-// const names = [
-//   "HTML",
-//   "CSS / SASS",
-//   "Javascript / ES6",
-//   "NodeJS / MongoDB",
-//   "Async / Await",
-//   "React &rArr; in Progress",
-// ];
-//Render skill section
-// const skillSection = new RenderSkills(names);
+const skillSection = new RenderSkills(names);
 
-// skillSection.render(names);
-
-//Render footer with up to date date.
+skillSection.render(names);
 
 const footerHTML = `&copy; Leszek Myrkwa ${date}`;
 

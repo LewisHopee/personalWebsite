@@ -35,13 +35,13 @@
 
       & .name {
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
         // margin-bottom: 1rem;
         text-transform: capitalize;
 
         @media only screen and (max-width: $bp-medium) {
-          font-size: 1.5rem;
+          font-size: 2rem;
         }
       }
 
@@ -49,6 +49,7 @@
         @include centerItem;
         color: $color-light;
         background-color: $color-primary;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         width: 50%;
         height: 1.5rem;
@@ -75,31 +76,12 @@
           width: 60%;
         }
         & .k4 {
-          width: 40%;
+          width: 45%;
         }
         & .k5 {
           width: 60%;
         }
         & .k6 {
-          width: 40%;
-        }
-
-        & .c1 {
-          width: 85%;
-        }
-        & .c2 {
-          width: 85%;
-        }
-        & .c3 {
-          width: 65%;
-        }
-        & .c4 {
-          width: 45%;
-        }
-        & .c5 {
-          width: 50%;
-        }
-        & .c6 {
           width: 45%;
         }
 

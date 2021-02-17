@@ -7,17 +7,17 @@
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 
   background-color: $color-light;
   @include borderBottom;
 
   @media only screen and (max-width: $bp-medium) {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   @media only screen and (max-height: 420px) and (max-width: $bp-medium) {
-    grid-template-columns: repeat(3, 35%);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   &__card {
