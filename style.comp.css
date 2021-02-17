@@ -174,15 +174,9 @@ html {
     list-style: none;
     overflow: hidden; }
     .skills__container--item {
-      position: relative;
       color: #0e76a8;
       background-color: #e6e6e6d5;
       box-shadow: 0 1.5rem 4rem rgba(14, 17, 19, 0.15); }
-      .skills__container--item .skillLevel {
-        text-align: left;
-        padding-left: 1rem;
-        color: #0e1113;
-        font-weight: 700; }
       .skills__container--item .name {
         text-align: center;
         font-size: 2.5rem;
@@ -202,10 +196,7 @@ html {
         margin-bottom: 1rem;
         width: 50%;
         height: 1.5rem;
-        font-size: 1.5rem;
         border-radius: 0.5rem;
-        font-weight: 700;
-        box-shadow: 0 1.5rem 4rem rgba(14, 17, 19, 0.15);
         border: 1px solid #0e1113;
         overflow: hidden; }
         @media only screen and (max-width: 56.25em) {
