@@ -44,7 +44,7 @@ const footerHTML = `&copy; Leszek Myrkwa ${date}`;
 
 const aboutHTML = `<h2>Hi, as You know my name is Leszek and I'm <span class="span-small">Front End Developer.</span>  💻</h2>
 <p>I'm highly motivated to achive my goal of becoming better and better each day, that's why every day I learn something new and try to progress. For now I focus on Front End but when I start feel like I'm really good with it, I want to start also with <span class="span-small">Back End to become Full Stack Dev</span>  one day.</p>
-<p>I have started my journey <span class="span-small"> 7 months ago</span>  and I spend all of my free time on studying programming, other things that I'm intrested with are all tech like phones , laptops etc and also E-sport if I can find some time for it 😂 </p>`;
+<p>I have started my journey <span class="span-small"> in June 2020 </span>  and I spend all of my free time on studying programming, I love teamwork and helping others , same as I love spread positive vibe everyday😂 </p>`;
 
 about.insertAdjacentHTML("beforeend", aboutHTML);
 
