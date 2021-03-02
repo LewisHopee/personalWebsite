@@ -1,0 +1,223 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Montserrat font -->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="/favicon-16x16.HASH_REF_e1a0429ce0c5dac92cb4c721d3096d3c.png">
+    
+
+    <script defer="" src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+    <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
+    <title>Leszek Myrkwa personal website</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar__items">
+          <div class="logo">
+            <img src="/favicon-32x32.HASH_REF_968649c24bee2be1afd98a095a8ad47f.png" alt="Website logo">
+            <p>Leszek Myrkwa</p> 
+          </div>
+
+          <li class="navbar__items--item"><a href="#skills">Skills</a></li>
+          <li class="navbar__items--item"><a href="#portfolio">Portfolio</a></li>
+          <li class="navbar__items--item"><a href="#about">About</a></li>
+          <li class="navbar__items--item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header">
+        <div class="header__quote">“In everything, love simplicity.”</div>
+        <h1 class="header__heading">
+          Hi, my name is Leszek and I'm
+          <span class="span-small">Web Developer.</span>
+        </h1>
+        <p class="header__p">
+          I'm Self Taught Front End Developer.
+        </p>
+        <div class="header__video">
+          <video class="header__video--item" autoplay="" muted="" loop="">
+            <source src="/Surfers%20in%20the%20Sea.HASH_REF_a198a26b674761e0167628a278c69286.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <div class="skills skills__container" id="skills">
+        
+        <!-- <ul class="skills__container">
+          <li class="skills__container--item">
+            <p class="name ">HTML</p>
+            
+            <div class="box">
+             
+              <div class="loading k1"></div>
+            </div>
+
+          </li>
+          
+          <li class="skills__container--item">
+            <p class="name ">CSS / SASS</p>
+            
+            <div class="box">
+             
+              <div class="loading k2"></div>
+            </div>
+
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">javascript / ES6</p>
+           
+            <div class="box">
+             
+              <div class="loading k3"></div>
+            </div>
+
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">NodeJS / MongoDB</p>
+           
+            <div class="box">
+             
+              <div class="loading k4"></div>
+            </div>
+
+          
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name ">async / await + API</p>
+            
+            <div class="box">
+             
+              <div class="loading k5"></div>
+            </div>
+
+          </li>
+
+          
+          <li class="skills__container--item">
+            <p class="name "> react / redux &rarr; <span class="inprogress">in progress...</span></p>
+      
+            <div class="box">
+             
+              <div class="loading k6"></div>
+            </div>
+          </li> -->
+        <!-- </ul> -->
+      </div>
+
+      <div class="portfolio" id="portfolio">
+
+           <figure class="portfolio__card">
+          <img src="/Dreamtt.HASH_REF_db670655d96b75e381e3f38bf27de3a0.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              My own project , Yerba Mate shop template made using Tailwind and ReactJS
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-dreamtt.netlify.app">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card ">
+          <img src="/Bankist.HASH_REF_da4b2bd1c632bf14b64b8b3b9f02d98b.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Bank website using Javascript. Try log with: js 1111 , jd 2222. Done during Jonas Schmedtmann course. 😁
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-bankistapp.netlify.app/">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay">
+           
+          </div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Mapty.HASH_REF_127b3cc545361dbae1ae7175eb04c2f7.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Using map API to make simple running/cycling application. Done during Jonas Schmedtmann course. 🏃‍♂️
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-mapty.netlify.app">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Keeper.HASH_REF_0ea4907026318de6edc24221a08f20f6.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              React ToDoList done on BootCamp from Angela Yu on Udemy 📒
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-keeper.netlify.app">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/JSgame.HASH_REF_a6d0f5210214e72b78d7538acfefa34a.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+              Simple Javascript game , guess number from 1 to 20! Done during Jonas Schmedtmann course. 🎯
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-jsgame.netlify.app">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+        <figure class="portfolio__card">
+          <img src="/Nexter.HASH_REF_32c2987ab0c7a646efe7eb579018ff0e.PNG" alt="Portfolio card image">
+          <figcaption>
+            <h1 class="portfolio__card--title">
+             CSS Grid website from Jonas Schmedtmann course. 💵
+            </h1>
+            <a class="portfolio__card--btn" href="https://leszek-nexter.netlify.app">Visit Website</a>
+          </figcaption>
+          <div class="portfolio__card--overlay"></div>
+        </figure>
+
+
+    </div>
+
+    <div class="about" id="about">
+      
+      <div class="about__content">
+        
+      </div>
+
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Want me in Your team? Just <span class="span-small">contact me</span>  and invite for inteview so we can get to know better.</h2>
+<div class="contact__container"> 
+  <ul class="contact__container--socials">
+  <li><a href="https://www.linkedin.com/in/leszek-myrkwa-8957401a9/">LinkedIn <i class="fab fa-linkedin"></i></a></li>
+  <li><a href="https://twitter.com/LeszekMyrkwa">Twitter <i class="fab fa-twitter-square"></i></a> </li>
+  <li><a href="https://github.com/LewisHopee?tab=repositories">GitHub <i class="fab fa-github-square"></i></a></li>
+</ul>
+
+<ul class="contact__container--details">
+  <li>Email: <span class="span-small">myrkwa97@gmail.com</span></li>
+  <li>Phone: <span class="span-small">07518488544</span></li>
+</ul>
+</div>
+     
+    </div>
+
+    <div class="footer">
+      
+    </div>
+  </div></body>
+</html>
